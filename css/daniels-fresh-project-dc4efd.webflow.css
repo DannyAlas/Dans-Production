@@ -944,8 +944,12 @@ p {
 }
 
 .top_foot_link {
-  color: #020016;
+  color: #BA88BD;
   text-decoration: none;
+}
+
+.top_foot_link:hover {
+  text-decoration: underline;
 }
 
 .link {
