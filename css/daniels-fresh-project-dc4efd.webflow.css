@@ -941,6 +941,13 @@ p {
   font-size: 14px;
 }
 
+}
+
+.top_foot_link {
+  color: #020016;
+  text-decoration: none;
+}
+
 .link {
   color: #e4b3a3;
   text-decoration: none;
