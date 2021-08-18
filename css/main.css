@@ -941,11 +941,16 @@ p {
   font-size: 14px;
 }
 
+.top_foot_text {
+  color: #BA88BD;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .top_foot_link {
   color: #BA88BD;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .top_foot_link:hover {
