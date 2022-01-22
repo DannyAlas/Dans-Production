@@ -1350,7 +1350,7 @@ a {
 }
 
 a {
-    background: linear-gradient(to right, hsl(281, 24%, 56%), hsl(324, 27%, 56%)), linear-gradient(to right, hsl(60, 100%, 81%), hsl(341, 54%, 69%), hsl(279, 34%, 65%));
+    background: linear-gradient(to right, hsl(281, 24%, 56%), hsl(324, 27%, 56%)), linear-gradient(to right, hsl(60, 100%, 80%), hsl(341, 54%, 69%), hsl(279, 34%, 65%));
     background-size: 100% 0.1em, 0 0.1em;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
