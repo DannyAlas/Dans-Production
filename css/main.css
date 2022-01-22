@@ -1312,36 +1312,14 @@ p {
     }
     .nav-logo-link {
         border-top: 1px solid #c4c4c4;
+        text-decoration: none;
     }
     .nav-link {
         padding-top: 10px;
         padding-bottom: 10px;
         border-top: 1px solid #c4c4c4;
+        text-decoration: none;
     }
-}
-
-@font-face {
-    font-family: 'Fa 400';
-    src: url('../fonts/fa-regular-400.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fa solid 900';
-    src: url('../fonts/fa-solid-900.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fa brands 400';
-    src: url('../fonts/fa-brands-400.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
 }
 
 a {
