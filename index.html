@@ -112,6 +112,9 @@
                         <h3>projects</h3>
                         <div class="tag__container">
                             <div class="tag">
+                                <a href="https://github.com/DannyAlas/Neural-Network-1" class="link-6">Custom Built Neural Network</a>
+                            </div>
+                            <div class="tag">
                                 <a href="https://youtu.be/I9IjFHPDNKw" class="link-6">Unity Simulation</a>
                             </div>
                             <div class="tag">
@@ -136,9 +139,11 @@
                     </div>
                 </div>
                 <div data-w-id="97a3c41d-2b20-51df-9348-325890c52a1e" class="button__magnetic ghosting">
-                    <a data-w-id="97a3c41d-2b20-51df-9348-325890c52a1f" style="opacity:0" href="" class="button__magnetic-link default w-inline-block">
+                    <a data-w-id="97a3c41d-2b20-51df-9348-325890c52a1f" style="opacity:0" class="button__magnetic-link default w-inline-block">
                         <div class="button__magnetic-content">
-                            <div class="button__magnetic-txt">Résumé (coming soon)</div>
+                            <div class="popup" onclick="popup()">Résumé
+                                <span class="popuptext" id="myPopup">due to webscrapers I ask that you contant me to view my resume</span>
+                            </div>
                         </div>
                     </a>
                     <div class="button__magnetic ghost1"></div>
@@ -208,7 +213,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
         <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
         </script>
+
 </body>
 
 </html>
