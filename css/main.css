@@ -275,6 +275,16 @@ p {
     align-items: center;
 }
 
+.ps__text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+
 .tag {
     margin-right: 8px;
     margin-bottom: 8px;
